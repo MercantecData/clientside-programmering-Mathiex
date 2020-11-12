@@ -7,18 +7,17 @@ body{
 
     background-size: cover;
 }
+
 .introHeader{
     text-align: center;
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .introDiv{    
     background-color: rgba(20, 19, 19, 0.623);
     background-size: cover;
     background-position: center;
-}
-#centerPiece{
-    object-fit: contain;
 }
 
 #tunnelRandall{
@@ -26,7 +25,7 @@ body{
     max-height: 100%;
     object-fit: cover;
     object-position: center, right;
-    z-index: -1;
+    z-index: 1;
 }
 
 /*.topnav {
@@ -53,7 +52,7 @@ body{
     color: white;
   }*/
 
-/*.bg-img {
+  /*.bg-img {
   background-image: url("img_nature.jpg");
 
   min-height: 380px;
@@ -65,8 +64,19 @@ body{
   position: relative;
 }*/
 
+#contactDiv{    
+  background-color: rgba(20, 19, 19, 0.623);
+  background-size: cover;
+  background-position: center;
+}
+
+#contactStuff{
+  text-align: center;
+  color: whitesmoke;
+  background-size: cover;
+}
 .container {
-  position: absolute;
+  position: relative;
   margin: 20px;
   width: auto;
 }
